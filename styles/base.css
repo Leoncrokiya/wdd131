@@ -1,9 +1,13 @@
 :root {
     --primary-color: #d3d3d3;
-    --secondary-color: #a9a9a9;
+    --secondary-color: #484444;
     --background-color: #00ffff;
     --font: "Roboto", sans-serif;
-    --border: #000000;
+    --other: #000000;
+}
+
+a {
+    color: var(--other);
 }
 
 a:hover {
@@ -30,13 +34,13 @@ header {
 
 h3{
     border: .5px var(--secondary-color, #d3d3d3) solid;
-    background-color: var(--secondary-color, #a9a9a9);
+    background-color: var(--secondary-color, #484444);
     margin: 0;
     padding: 0;
 }
 
 header, .card, main {
-    border: 1px var(--border, #000000) solid;
+    border: 1px var(--other, #000000) solid;
     border-radius: 7.5px;
     margin: 1px;
     padding: 1px;
