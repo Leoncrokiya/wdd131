@@ -1,0 +1,47 @@
+:root {
+    --primary-color: lightgray;
+    --secondary-color: darkgrey;
+    --background-color: cyan;
+    --font: "Roboto", sans-serif;
+}
+
+a:hover {
+    background-color: var(--background-color);
+}
+
+body {
+    font-family: var(--font);
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+header span {
+    display: flex;
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+h3{
+    border: .5px var(--secondary-color) solid;
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: 1px #000 solid;
+    border-radius: 7.5px;
+    margin: 1px;
+    padding: 1px;
+}
+
+/* header, main, footer {
+    display: grid;
+} */
