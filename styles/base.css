@@ -1,8 +1,9 @@
 :root {
-    --primary-color: lightgray;
-    --secondary-color: darkgrey;
-    --background-color: cyan;
+    --primary-color: #d3d3d3;
+    --secondary-color: #a9a9a9;
+    --background-color: #00ffff;
     --font: "Roboto", sans-serif;
+    --border: #000000;
 }
 
 a:hover {
@@ -20,7 +21,6 @@ h1 {
 }
 
 header span {
-    display: flex;
     display: block;
 }
 
@@ -36,12 +36,12 @@ h3{
 }
 
 .card {
-    border: 1px #000 solid;
+    border: 1px var(--border) solid;
     border-radius: 7.5px;
     margin: 1px;
     padding: 1px;
 }
 
-/* header, main, footer {
+header, main, footer {
     display: grid;
-} */
+}
