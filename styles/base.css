@@ -7,7 +7,7 @@
 }
 
 a:hover {
-    background-color: var(--background-color);
+    background-color: var(--background-color, #00ffff);
 }
 
 body {
@@ -29,14 +29,14 @@ header span {
 }
 
 h3{
-    border: .5px var(--secondary-color) solid;
-    background-color: var(--secondary-color);
+    border: .5px var(--secondary-color, #d3d3d3) solid;
+    background-color: var(--secondary-color, #a9a9a9);
     margin: 0;
     padding: 0;
 }
 
-.card {
-    border: 1px var(--border) solid;
+header, .card, main {
+    border: 1px var(--border, #000000) solid;
     border-radius: 7.5px;
     margin: 1px;
     padding: 1px;
