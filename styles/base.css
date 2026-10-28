@@ -11,7 +11,7 @@ a {
     color: var(--other);
 }
 
-a:hover {
+a:hover, a:focus {
     background-color: var(--background-color, #00ffff);
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 h3{
-    border: .5px var(--secondary-color, #d3d3d3) solid;
+    border: .5px var(--other, #000000) solid;
     color: var(--text);
     background-color: var(--secondary-color, #484444);
     margin: 0;
