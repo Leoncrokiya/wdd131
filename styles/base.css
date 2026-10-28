@@ -29,7 +29,7 @@ header {
     display: block;
 }
 
-.container{
+.container, .profile{
     display: flex;
 }
 
