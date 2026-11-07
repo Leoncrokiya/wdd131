@@ -8,8 +8,12 @@ body {
 	font-family: "Sansita", sans-serif;
 }
 
-h1, footer{
+figcaption, h1, footer{
     text-align: center;
+}
+
+footer{
+    margin: 50px;
 }
 
 /* mobile **************************/
