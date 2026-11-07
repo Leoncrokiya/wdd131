@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 25px;
+	place-items: center;
+}
+
+@media screen {
+    header {
+        background-color: cyan;
+        color: black;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
