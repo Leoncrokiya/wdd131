@@ -7,8 +7,8 @@
 
 @media screen {
     header {
-        background-color: cyan;
-        color: black;
+        background-color: #00ffff;
+        color: #000000;
     }
 
     main {

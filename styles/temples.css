@@ -15,12 +15,12 @@ figcaption, h1, footer{
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: #bbbbbb;
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0 30px #333;
+	border: 1px solid #0000001a;
+	box-shadow: 0 0 30px #333333;
 }
 
 header,
@@ -44,7 +44,7 @@ nav ul {
 
 nav a {
 	display: block;
-	color: #fff;
+	color: #ffffff;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -53,12 +53,12 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline double;
-	background-color: #eee;
-	color: #000;
+	background-color: #eeeeee;
+	color: #000000;
 }
 
 .active {
-	color: yellow;
+	color: #ffff00;
 }
 
 /* Larger Views ******************************/
