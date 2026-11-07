@@ -10,10 +10,7 @@ body {
 
 figcaption, h1, footer{
     text-align: center;
-}
-
-footer{
-    margin: 50px;
+    margin: 15px;
 }
 
 /* mobile **************************/
