@@ -1,3 +1,13 @@
+:root {
+    --primary-color:#000000;
+    --secondary-color: #e30713;
+    --tertiary-color: #ffffff;
+}
+
+#icon::after {
+  content: "⛅";
+}
+
 * {
     font-family: sans-serif;
 	margin: 0;
@@ -10,21 +20,22 @@ li {
 }
 
 div img {
-    background-color: black;
+    background-color: var(--primary-color);
 }
 
 /* mobile **************************/
 header {
-	background-color: #e30713;
+	background-color: var(--secondary-color);
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
-	border: 1px solid #000000;
+	border: 1px solid var(--primary-color);
 }
 
 h1 {
-    color: #ffffff;
+    color: var(--tertiary-color);
     text-align: center;
+    font-size: 2rem;
 }
 
 header,
@@ -33,16 +44,11 @@ main {
 }
 
 .data, .weather {
-    border: 1px #000000 solid;
-    border-width: 33%;
+    border: 1px var(--primary-color) solid;
     margin-left: 33%;
     margin-right: 33%;
     margin-top: 10px;
     justify-content: space-around;
-}
-
-h1 {
-	font-size: 2rem;
 }
 
 /* Larger Views ******************************/

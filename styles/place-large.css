@@ -1,10 +1,8 @@
 @media screen {
         header {
-        background-color: #e30713;
         display: grid;
         grid-gap: 1rem;
         padding: 20px;
-        border: 1px solid #000000;
         text-align: center;
     }
 
