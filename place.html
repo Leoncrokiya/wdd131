@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Country Page</title>
+    <meta name="author" content="Lwandle Kyle Bayana Hlongwa">
+    <meta name="description" content="This is a meticulously crafted webpage about a country or place and its weather.">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+</head>
+
+<body>
+    <header>
+        <h1>Canada</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <img src="images/hero.webp" alt="Canadian Canyons">
+            </picture>
+        </div>
+
+        <div class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 9984671 sq km</li>
+                <li>Population: 40658944</li>
+                <li>Capital: Ottawa</li>
+                <li>Languages: English, French</li>
+                <li>Currency: CAD</li>
+                <li>Time Zone: CST-6</li>
+                <li>Calling Code: +1</li>
+                <li>Internet TLD: .ca</li>
+            </ul>
+        </div>
+
+        <div class="weather">
+            <h2><img src="images/weather-icon.svg" alt="Weather icon">Weather</h2>
+            <ul>
+                
+                <li>Temperature: <span id="temp"></span></li>
+                <li>Conditions: <span id="con"></span></li>
+                <li>Wind: <span id="wind-speed"></span></li>
+                <li>Wind Chill: <span id="wind-chill"></span></li>
+            </ul>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Lwandle Kyle Bayana Hlongwa | South Africa</p>
+        <p id="last-modified"></p>
+    </footer>
+
+    <script defer src="scripts/place.js"></script>
+</body>
+
+</html>

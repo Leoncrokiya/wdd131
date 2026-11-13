@@ -1,0 +1,31 @@
+@media screen {
+        header {
+        background-color: #e30713;
+        display: grid;
+        grid-gap: 1rem;
+        padding: 20px;
+        border: 1px solid #000000;
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .hero {
+        background-image: url("../images/hero-large.webp");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero picture,
+    .hero img {
+        display: block;
+        width: 100%;
+        visibility: hidden;
+    }
+}
