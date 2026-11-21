@@ -100,10 +100,26 @@ const temples = [
   {
     templeName: "Durban South Africa",
     location: "Durban, South Africa",
-    dedicated: "2020, febuary, 16",
+    dedicated: "2020, Febuary, 16",
     area: 19860,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/durban-south-africa-temple/durban-south-africa-temple-72674-main.jpg"
+  },
+  {
+    templeName: "Calgary Alberta",
+    location: "Calgary, Alberta",
+    dedicated: "2012, October, 28",
+    area: 33000,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/calgary-alberta-temple/calgary-alberta-temple-13199-main.jpg"
+  },
+  {
+    templeName: "Seoul Korea",
+    location: "Seoul, Korea",
+    dedicated: "1985, December, 14",
+    area: 28057,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/seoul-korea-temple/seoul-korea-temple-22305-main.jpg"
   }
 ];
 
@@ -127,9 +143,9 @@ function createTempleCard(filteredTemples) {
     let img = document.createElement('img');
 
     name.textContent = temple.templeName;
-    location.innerHTML = `<span class="label>Location:<span> ${temple.location}`;
-    dedicated.innerHTML = `<span class="label>Dedicated:<span> ${temple.dedicated}`;
-    area.innerHTML = `<span class="label>Size:<span> ${temple.area} sq ft`;
+    location.innerHTML = `<span class="label">Location:<span> ${temple.location}`;
+    dedicated.innerHTML = `<span class="label">Dedicated:<span> ${temple.dedicated}`;
+    area.innerHTML = `<span class="label">Size:<span> ${temple.area} sq ft`;
     img.setAttribute("src", temple.imageUrl);
     img.setAttribute("alt", `${temple.templeName} Temple`);
     img.setAttribute("loading", "lazy");

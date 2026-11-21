@@ -83,6 +83,31 @@ nav a:hover {
 	color: #000000;
 }
 
+.res-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+	padding: 1rem;
+}
+
+.res-grid section {
+	background: #f3f3f3;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	padding: 1rem;
+	overflow: hidden;
+	text-align: center;
+}
+
+.res-grid img {
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: cover;
+	aspect-ratio: 16 / 10;
+	margin-top: 1rem;
+}
+
 .active {
 	color: #ffff00;
 }
@@ -110,6 +135,12 @@ nav a:hover {
 	}
 	nav a {
 		flex: 1 1 100%;
+	}
+
+	.res-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
 	.phone {
