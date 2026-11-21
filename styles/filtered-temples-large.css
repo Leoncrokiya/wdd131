@@ -1,0 +1,17 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+	grid-gap: 25px;
+	place-items: center;
+}
+
+@media screen {
+    header {
+        background-color: #00ffff;
+        color: #000000;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

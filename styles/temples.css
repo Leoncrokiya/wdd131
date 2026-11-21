@@ -32,6 +32,16 @@ h1 {
 	font-size: 2rem;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+}
+
+
 nav {
 	background-color: #36454f;
 }
