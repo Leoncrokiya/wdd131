@@ -111,10 +111,10 @@ createTempleCard(temples);
 
 const nonuhahLink = document.querySelector('#nonutah');
 
-nonuhahLink.addEventListener("click", (event) => {
-  event.preventDefault();
-  createTempleCard(temples.filter(temple => !temple.location.includes("Utah")));
-});
+// nonuhahLink.addEventListener("click", (event) => {
+//   event.preventDefault();
+//   createTempleCard(temples.filter(temple => !temple.location.includes("Utah")));
+// });
 
 function createTempleCard(filteredTemples) {
   document.querySelector('.res-grid').innerHTML = "";
