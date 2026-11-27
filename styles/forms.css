@@ -1,0 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 740px) {
+    body {
+        text-align: left;
+    }
+}
