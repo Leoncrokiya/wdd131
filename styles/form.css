@@ -46,7 +46,7 @@ main {
 /* ------------FORM -------------- */
 .wf1 fieldset {
     margin: 2rem 0;
-    border: 1px solid #ddd;
+    border: 1px solid #767676;
     border-radius: 5px;
     padding: .5rem 2%;
 }
@@ -60,7 +60,7 @@ main {
 .wf1 label {
     display: block;
     padding-top: 1rem;
-    color: #ff0000;
+    color: #334477;
     font-size: .9rem;
 }
 
@@ -77,12 +77,12 @@ main {
 .wf1 input[type="date"],
 .wf1 select,
 .wf1 input[type="number"] {
-    background-color: #eee;
+    background-color: #fff;
     display: block;
-    border: solid 1px #999;
+    border: solid 1px #767676;
     border-radius: 5px;
     padding: .75rem;
-    color: #555;
+    color: #222;
     width: 100%;
     max-width: 400px;
     appearance: none;
@@ -95,7 +95,7 @@ main {
 
 .wf1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(#f00, #dc4a4a);
+    background-color: #3d263d;
     color: #fff;
     padding: .8rem;
     width: 69%;
@@ -105,11 +105,11 @@ main {
 }
 
 .wf1 input:required {
-    border-right: solid 8px #f00;
+    border-right: solid 8px #b42318;
 }
 
 .wf1 input:required:valid {
-    border-right: solid 8px rgb(44, 207, 44);
+    border-right: solid 8px #18723c;
 }
 
 /*----------- FOOTER --------------*/
@@ -133,12 +133,12 @@ header {
 }
 
 .wf1 textarea {
-    background-color: #eee;
+    background-color: #fff;
     display: block;
-    border: solid 1px #999;
+    border: solid 1px #767676;
     border-radius: 5px;
     padding: .75rem;
-    color: #555;
+    color: #222;
     width: 100%;
     resize: vertical;
 }
